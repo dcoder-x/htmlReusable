@@ -6,7 +6,7 @@ add https://dcoder-x.github.io/htmlReusable/reusable.js as src attribute in a sc
 
 2 create the component 
 create the html component you want to reuse e.g nav bar 
-then copy it and initialize it to a variable e.g navBar = `<h1> HELLO</h1>`
+then copy it and initialize it to a variable using the template literal `` e.g navBar = `<h1> HELLO</h1>`
 
 3 call the reuse function
 
