@@ -9,7 +9,7 @@ const reuse =(componentName,component)=>{
             componentTemplate.innerHTML=component
             const shadowRoot = this.attachShadow({ mode: 'open' });
         
-            this.innerHTML=componentTemplate.content
+            shadowRoot.appendChild(componentTemplate.content);
     
         }
         connectedCallback() {
