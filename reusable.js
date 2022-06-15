@@ -7,7 +7,7 @@ const reuse =(componentName,component)=>{
             super();
             const componentTemplate = document.createElement('Div'); 
             componentTemplate.innerHTML=component
-            const shadowRoot = this.attachShadow({ mode: 'open' });
+            // const shadowRoot = this.attachShadow({ mode: 'open' });
         
             document.body.appendChild(componentTemplate.content);
     
