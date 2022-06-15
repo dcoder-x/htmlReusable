@@ -5,7 +5,7 @@ const reuse =(componentName,component)=>{
     class Reusable extends HTMLElement{
         constructor(){
             super();
-            const componentTemplate = document.createElement('template'); 
+            const componentTemplate = document.createElement('Div'); 
             componentTemplate.innerHTML=component
             const shadowRoot = this.attachShadow({ mode: 'open' });
         
