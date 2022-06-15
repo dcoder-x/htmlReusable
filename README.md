@@ -23,6 +23,6 @@ e.g <html> <nav-bar></nav-bar></html>
 
 good luck 
 
-made by ayomikun faluyi
+made with love by ayomikun faluyi
 
 github[ dcoder-x] (https://github.com/dcoder-x/htmlReusable)
