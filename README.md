@@ -18,7 +18,7 @@ e.g reuse('nav-bar', navBar)
 
 add the script to the head of the html(below the reuseable.js tag)
 then add the custom component where you wish.
-e.g <html> <nav-bar></nav-bar></html>
+e.g `<html> <nav-bar></nav-bar></html>`
 
 
 good luck 
