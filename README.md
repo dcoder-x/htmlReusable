@@ -10,9 +10,29 @@ then copy it and initialize it to a variable using the template literal `` e.g n
 
 3 call the reuse function
 
-call the reuse function and pass in these two arguments; the componentName(which must start with a small letter and contain an hyphen) and the component(the variable you initialized earlier)
+The reuse function takes in four arguments/parameters, reuse(componentName,component,isShadow,isBody)
 
-e.g reuse('nav-bar', navBar)
+### componentName: 
+the componentName must start with a lower-case and contain a hyphen to prevent element name conflict in the DOM  
+
+### component: 
+the component is the variable you initialized earlier i.e navBar
+
+### isShadow:
+this specifies whether the component should be appended to the shadow DOM
+this takes a boolean value and has a default value of false
+
+##### read more on shadow elements https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
+
+### isBody
+this specifies whether the component should be appended to the body of the html DOM
+this takes a boolean value and has a default value of true
+
+## Note
+
+when working with isBody, style the component's element with distinctive names to avoid styling conflict
+
+e.g `reuse('nav-bar', navBar,false,true)`
 
 4 import into html
 
