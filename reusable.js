@@ -1,4 +1,4 @@
- const reuse =(componentName,component,isShadow=false,isBody=true)=>{
+ export const reuse =(componentName,component,isShadow=false,isBody=true)=>{
     
     
 // creating the reusable class
@@ -28,5 +28,3 @@
 
     return Reusable
 }
-
-export default reuse
