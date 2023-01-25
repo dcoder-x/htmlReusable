@@ -3,7 +3,10 @@ a simple JavaScript library that allows the creation of reusable HTML components
 # Usage 
 
 ## 1 link to the script
+#### npm
+`npm install html-reusable`
 
+#### script tag
 add `<script src='https://dcoder-x.github.io/htmlReusable/reusable.js' />` inside the head tag
 
 ## 2 create the component 
