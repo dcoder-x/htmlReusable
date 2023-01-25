@@ -1,14 +1,16 @@
 # htmlReusable
 a simple JavaScript library that allows the creation of reusable HTML components
 # Usage 
-1 link to the script
-add https://dcoder-x.github.io/htmlReusable/reusable.js as src attribute in a script tag (this should be done in the head before other script tags)
 
-2 create the component 
+## 1 link to the script
+
+add `<script src='https://dcoder-x.github.io/htmlReusable/reusable.js' />` inside the head tag
+
+## 2 create the component 
 create the html component you want to reuse e.g nav bar 
 then copy it and initialize it to a variable using the template literal `` e.g navBar = `<h1> HELLO</h1>`
 
-3 call the reuse function
+## 3 call the reuse function
 
 The reuse function takes in four arguments/parameters, reuse(componentName,component,isShadow,isBody)
 
@@ -34,7 +36,7 @@ when working with isBody, style the component's element with distinctive names t
 
 e.g `reuse('nav-bar', navBar,false,true)`
 
-4 import into html
+## 4 import into html
 
 add the script to the head of the html(below the reuseable.js tag)
 then add the custom component where you wish.
