@@ -60,4 +60,4 @@ const reuse = (
 };
 
 // Exporting the reuse function as the default export
-export default reuse;
+module.exports = reuse
