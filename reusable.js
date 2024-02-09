@@ -1,3 +1,6 @@
+
+const Transformer = require("node-html-transformers")
+
 /**
  * Create and register a reusable web component.
  *
@@ -50,7 +53,7 @@ const reuse = (
   }
 
   // Creating HTML string based on provided HTML file details
-  const htmlString = new Transformer(htmlFilePath, encoding, content);
+  const htmlString = new Transformer(htmlFilePath, encoding, content).toString();
 
   // Registering the custom element
   customElements.define(componentName, Reusable);
