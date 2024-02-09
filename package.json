@@ -19,5 +19,9 @@
     "html",
     "reusable components"
   ],
-  "homepage": "https://github.com/dcoder-x/htmlReusable#readme"
+  "homepage": "https://github.com/dcoder-x/htmlReusable#readme",
+  "dependencies": {
+    "node-html-transformers": "^1.0.2",
+    "puppeteer": "^22.0.0"
+  }
 }
