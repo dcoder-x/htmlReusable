@@ -1,5 +1,5 @@
 
-const Transformer = require("node-html-transformers")
+import Transformer from "node-html-transformers";
 
 /**
  * Create and register a reusable web component.
@@ -63,4 +63,4 @@ const reuse = (
 };
 
 // Exporting the reuse function as the default export
-module.exports = reuse
+export default reuse
